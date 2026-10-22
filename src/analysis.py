@@ -1,7 +1,4 @@
-"""End-to-end marketplace experiment decision brief."""
-
-# This file brings the experiment together. I calculate rider, driver, and
-# marketplace outcomes, look for heterogeneous effects, apply guardrails, and
+# It brings the experiment together. I calculate rider, driver and marketplace outcomes, also look for heterogeneous effects, apply guardrails and
 # turn the evidence into a scale, iterate, or hold recommendation.
 
 from dataclasses import asdict
