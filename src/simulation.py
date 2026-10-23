@@ -1,11 +1,9 @@
-# I use synthetic data so the full marketplace experiment can be reproduced
-# without exposing customer or driver information. The simulation includes
+# I use synthetic data so the full marketplace experiment can be reproduced without exposing customer info. 
+#The simulation includes
 # zone differences, demand cycles, supply constraints, and treatment spillover.
 
 from dataclasses import dataclass
-
 import numpy as np
-
 
 @dataclass(frozen=True)
 class MarketplacePanel:
