@@ -1,5 +1,3 @@
-"""Synthetic two-sided marketplace and switchback experiment."""
-
 # I use synthetic data so the full marketplace experiment can be reproduced
 # without exposing customer or driver information. The simulation includes
 # zone differences, demand cycles, supply constraints, and treatment spillover.
