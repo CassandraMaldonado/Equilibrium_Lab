@@ -12,7 +12,6 @@ def _effect(panel: MarketplacePanel, outcome: np.ndarray, mask: np.ndarray | Non
     mask = np.ones(len(panel.zone), dtype=bool) if mask is None else mask
     return asdict(estimate_effect(outcome[mask], panel.treatment[mask], panel.zone[mask], panel.hour[mask], panel.block[mask]))
 
-
 def analyze(seed: int = 29, zones: int = 18) -> dict:
     panel = simulate_marketplace(n_zones=zones, seed=seed)
     conversion = np.divide(panel.completed, panel.requests, out=np.zeros_like(panel.completed), where=panel.requests > 0)
@@ -63,4 +62,3 @@ def analyze(seed: int = 29, zones: int = 18) -> dict:
         "rollout": [asdict(row) for row in rollout],
         "hourly": hourly,
     }
-
