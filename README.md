@@ -12,8 +12,4 @@ The included scenario evaluates a new matching policy across geographic zones us
 - Were gains caused by the policy or by time-of-day and zone differences?
 - Did riders and drivers both benefit?
 - Were improvements shared across neighborhoods and demand conditions?
-
-
-
-Which zones should receive the policy next?
-
+- Which zones should receive the policy next?
