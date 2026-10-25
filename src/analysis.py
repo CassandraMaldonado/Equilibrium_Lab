@@ -1,9 +1,7 @@
 # It brings the experiment together. I calculate rider, driver and marketplace outcomes, also look for heterogeneous effects and turn it into a recommendation.
 
 from dataclasses import asdict
-
 import numpy as np
-
 from .diagnostics import access_gap, assignment_checks
 from .experiment import estimate_effect
 from .optimizer import recommend_rollout
