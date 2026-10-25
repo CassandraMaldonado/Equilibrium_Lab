@@ -1,5 +1,4 @@
-# I use this to rerun the complete analysis from the terminal with a different
-# random seed or number of marketplace zones.
+# I use this to rerun the analysis from the terminal with a different random seed or number of marketplace zones.
 
 import argparse
 import json
