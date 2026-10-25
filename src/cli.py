@@ -1,11 +1,8 @@
-"""Command-line entry point for a reproducible marketplace brief."""
-
 # I use this to rerun the complete analysis from the terminal with a different
 # random seed or number of marketplace zones.
 
 import argparse
 import json
-
 from .analysis import analyze
 
 
