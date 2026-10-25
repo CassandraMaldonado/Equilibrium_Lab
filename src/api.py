@@ -1,11 +1,8 @@
-"""FastAPI delivery layer for Equilibrium Lab."""
-
 # I use this file to serve the decision brief and dashboard from the same
 # analysis. The API also makes the results easy to inspect or reuse elsewhere.
 
 from functools import lru_cache
 from pathlib import Path
-
 from fastapi import FastAPI, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
