@@ -1,5 +1,5 @@
-# I use this file to serve the decision brief and dashboard from the same
-# analysis. The API also makes the results easy to inspect or reuse elsewhere.
+# Helps for the decision brief and dashboard from the analysis. 
+# The API also makes the results easy to inspect or reuse elsewhere.
 
 from functools import lru_cache
 from pathlib import Path
