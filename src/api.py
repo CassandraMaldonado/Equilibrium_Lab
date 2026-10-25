@@ -28,11 +28,9 @@ def brief(seed: int = Query(29, ge=0, le=1_000_000), zones: int = Query(18, ge=8
 @app.get("/")
 def index():
     return FileResponse(WEB / "index.html")
-
+    
 app.mount("/static", StaticFiles(directory=WEB), name="static")
 
 def run():
     import uvicorn
-
     uvicorn.run("equilibrium_lab.api:app", host="127.0.0.1", port=8000)
-
