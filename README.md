@@ -6,25 +6,12 @@ I built Equilibrium Lab to answer a harder question than “did the metric go up
 
 The included scenario evaluates a new matching policy across geographic zones using a switchback experiment. It measures rider conversion, pickup time, driver utilization, earnings, cancellations, marketplace efficiency and distributional impact before recommending whether to scale, iterate or stop.
 
-The questions
+# The questions
 
-
-
-
-
-Did the matching policy improve completed trips without harming marketplace health?
-
-
-
-Were gains caused by the policy or by time-of-day and zone differences?
-
-
-
-Did riders and drivers both benefit?
-
-
-
-Were improvements shared across neighborhoods and demand conditions?
+- Did the matching policy improve completed trips without harming marketplace health?
+- Were gains caused by the policy or by time-of-day and zone differences?
+- Did riders and drivers both benefit?
+- Were improvements shared across neighborhoods and demand conditions?
 
 
 
