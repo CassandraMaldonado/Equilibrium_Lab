@@ -1,5 +1,4 @@
-# It brings the experiment together. I calculate rider, driver and marketplace outcomes, also look for heterogeneous effects and
-# turn it into a recommendation.
+# It brings the experiment together. I calculate rider, driver and marketplace outcomes, also look for heterogeneous effects and turn it into a recommendation.
 
 from dataclasses import asdict
 
