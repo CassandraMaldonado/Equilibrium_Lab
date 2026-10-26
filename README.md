@@ -23,3 +23,19 @@ The included scenario evaluates a new matching policy across geographic zones us
 - Reports **heterogeneous effects** by demand pressure and neighborhood access level.
 - Uses a constrained optimizer to recommend rollout while protecting minimum service coverage.
 - Keeps the statistical evidence separate from the final product decision.
+
+
+## Run the project
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e '.[dev]'
+streamlit run streamlit_app.py
+```
+
+Streamlit will open the interactive decision brief in your browser. You can also run the analysis directly:
+
+```bash
+python -m equilibrium_lab.cli --seed 29 --zones 18
+```
