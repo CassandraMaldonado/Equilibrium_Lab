@@ -51,3 +51,19 @@ flowchart LR
     E --> F["Optimize the next rollout"]
     F --> G["Produce a decision brief and API"]
 ```
+
+## Repository map
+
+| Location | What it does |
+|---|---|
+| `src/equilibrium_lab/simulation.py` | Creates realistic zone-by-hour marketplace data. |
+| `src/equilibrium_lab/experiment.py` | Estimates switchback effects with cluster-robust uncertainty. |
+| `src/equilibrium_lab/diagnostics.py` | Checks assignment balance, pre-trends, and marketplace guardrails. |
+| `src/equilibrium_lab/optimizer.py` | Recommends where to expand the policy next. |
+| `src/equilibrium_lab/analysis.py` | Combines the evidence into a product recommendation. |
+| `src/equilibrium_lab/api.py` | Makes the analysis available to the dashboard. |
+| `streamlit_app.py` | Contains the interactive marketplace decision brief. |
+| `tests/` | Verifies the simulation, statistics, optimizer, and API. |
+| `docs/` | Explains the methodology and interview narrative. |
+
+All data is synthetic. The project demonstrates experimental design and product reasoning, not a claim about a real marketplace.
