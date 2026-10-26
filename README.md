@@ -16,10 +16,10 @@ The included scenario evaluates a new matching policy across geographic zones us
 
 ## What makes this project different
 
-- Uses a **zone-by-time switchback design** to reduce interference between treatment and control.
-- Estimates effects with **cluster-robust uncertainty** instead of treating every event as independent.
+- Uses a **zone bytime switchback design** to reduce interference between treatment and control.
+- Estimates effects with **cluster uncertainty** instead of treating every event as independent.
 - Runs **sample-ratio and pre-trend checks** before interpreting results.
-- Measures both sides of the marketplace through rider, driver, and system guardrails.
+- Measures both sides of the marketplace through rider, driver and system guardrails.
 - Reports **heterogeneous effects** by demand pressure and neighborhood access level.
 - Uses a constrained optimizer to recommend rollout while protecting minimum service coverage.
 - Keeps the statistical evidence separate from the final product decision.
