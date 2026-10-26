@@ -39,3 +39,15 @@ You can also run the analysis directly:
 ```bash
 python -m equilibrium_lab.cli --seed 29 --zones 18
 ```
+
+## How the analysis flows
+
+```mermaid
+flowchart LR
+    A["Simulate marketplace activity"] --> B["Validate assignment and pre-trends"]
+    B --> C["Estimate switchback treatment effects"]
+    C --> D["Check rider driver and access guardrails"]
+    D --> E["Measure differences across market conditions"]
+    E --> F["Optimize the next rollout"]
+    F --> G["Produce a decision brief and API"]
+```
