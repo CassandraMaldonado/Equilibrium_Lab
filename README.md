@@ -34,7 +34,7 @@ pip install -e '.[dev]'
 streamlit run streamlit_app.py
 ```
 
-Streamlit will open the interactive decision brief in your browser. You can also run the analysis directly:
+You can also run the analysis directly:
 
 ```bash
 python -m equilibrium_lab.cli --seed 29 --zones 18
