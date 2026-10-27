@@ -33,7 +33,7 @@ def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> M
     access_by_zone = np.where(np.arange(n_zones) % 4 == 0, "limited", "standard")
     access_group = access_by_zone[zone_ids]
 
-    # Alternate assignment within each zone, with a random phase to avoid a systematic relationship between treatment and time of day.
+# Alternate assignment within each zone, with a random phase to avoid a systematic relationship between treatment and time of day.
     phase = rng.integers(0, 2, n_zones)
     treatment = ((blocks + phase[zone_ids]) % 2).astype(bool)
     hour_of_day = time_ids % 24
@@ -43,7 +43,7 @@ def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> M
     demand_pressure = np.clip(pressure, 0.35, 1.75)
     requests = rng.poisson(62 * demand_pressure).astype(float)
 
-    # The new policy helps most when the market is moderately constrained. It helps access-limited zones too, but less, making equity visible.
+# The new policy helps most when the market is moderately constrained. It helps access-limited zones too, but less, making equity visible.
     access_penalty = (access_group == "limited") * 0.018
     conversion_base = 0.70 - 0.12 * (demand_pressure - 0.8) - access_penalty
     conversion_lift = treatment * (0.036 + 0.018 * (demand_pressure > 1.05) - 0.010 * (access_group == "limited"))
@@ -72,4 +72,3 @@ def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> M
         driver_earnings,
         contribution,
     )
-
