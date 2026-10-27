@@ -1,5 +1,3 @@
-"""Switchback treatment effects with cluster-robust uncertainty."""
-
 # This is the statistical core of the project. I estimate treatment effects
 # after controlling for zone and hour-of-day differences, then cluster the
 # uncertainty by zone and switchback block so repeated observations are not
