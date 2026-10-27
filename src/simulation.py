@@ -20,7 +20,7 @@ class MarketplacePanel:
     driver_earnings: np.ndarray
     contribution: np.ndarray
 
-    # An hourly panel.
+# An hourly panel.
 def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> MarketplacePanel:
     if n_zones < 8 or days < 14:
         raise ValueError("Use at least 8 zones and 14 days")
@@ -33,8 +33,7 @@ def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> M
     access_by_zone = np.where(np.arange(n_zones) % 4 == 0, "limited", "standard")
     access_group = access_by_zone[zone_ids]
 
-    # Alternate assignment within each zone, with a random phase to avoid a
-    # systematic relationship between treatment and time of day.
+    # Alternate assignment within each zone, with a random phase to avoid a systematic relationship between treatment and time of day.
     phase = rng.integers(0, 2, n_zones)
     treatment = ((blocks + phase[zone_ids]) % 2).astype(bool)
     hour_of_day = time_ids % 24
