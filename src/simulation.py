@@ -43,8 +43,7 @@ def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> M
     demand_pressure = np.clip(pressure, 0.35, 1.75)
     requests = rng.poisson(62 * demand_pressure).astype(float)
 
-    # The new policy helps most when the market is moderately constrained. It
-    # helps access-limited zones too, but less, making equity visible.
+    # The new policy helps most when the market is moderately constrained. It helps access-limited zones too, but less, making equity visible.
     access_penalty = (access_group == "limited") * 0.018
     conversion_base = 0.70 - 0.12 * (demand_pressure - 0.8) - access_penalty
     conversion_lift = treatment * (0.036 + 0.018 * (demand_pressure > 1.05) - 0.010 * (access_group == "limited"))
