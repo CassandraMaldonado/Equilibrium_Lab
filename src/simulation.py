@@ -20,9 +20,8 @@ class MarketplacePanel:
     driver_earnings: np.ndarray
     contribution: np.ndarray
 
-
+    # An hourly panel.
 def simulate_marketplace(n_zones: int = 18, days: int = 28, seed: int = 29) -> MarketplacePanel:
-    """Create an hourly panel with randomized four-hour switchback blocks."""
     if n_zones < 8 or days < 14:
         raise ValueError("Use at least 8 zones and 14 days")
     rng = np.random.default_rng(seed)
