@@ -65,5 +65,3 @@ flowchart LR
 | `streamlit_app.py` | Contains the interactive marketplace decision brief. |
 | `tests/` | Verifies the simulation, statistics, optimizer, and API. |
 | `docs/` | Explains the methodology and interview narrative. |
-
-All data is synthetic. The project demonstrates experimental design and product reasoning, not a claim about a real marketplace.
