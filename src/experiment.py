@@ -1,7 +1,5 @@
-# This is the statistical core of the project. I estimate treatment effects
-# after controlling for zone and hour-of-day differences, then cluster the
-# uncertainty by zone and switchback block so repeated observations are not
-# incorrectly treated as independent.
+# This is where I estimate the actual impact of the policy. 
+# I account for differences between zones and times of day, then group related observations together so I do not treat repeated marketplace activity as completely independent.
 
 from dataclasses import dataclass
 
