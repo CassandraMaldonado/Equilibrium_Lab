@@ -4,7 +4,6 @@ import argparse
 import json
 from .analysis import analyze
 
-
 def main():
     parser = argparse.ArgumentParser(description="Analyze a marketplace switchback experiment")
     parser.add_argument("--seed", type=int, default=29)
@@ -15,4 +14,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
