@@ -1,8 +1,5 @@
-"""Assignment, trend, guardrail, and access diagnostics."""
-
-# I use these checks before making a rollout recommendation. They catch broken
-# assignment, compare early-period trends, and make sure aggregate gains do not
-# hide harm to riders, drivers, or access-limited neighborhoods.
+# Checks before making a recommendation. They catch broken assignment, compare period trends and make sure aggregate gains do not
+# hide harm to riders, drivers or access-limited neighborhoods.
 
 import numpy as np
 
