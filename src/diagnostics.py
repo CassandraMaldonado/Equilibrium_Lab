@@ -2,9 +2,7 @@
 # hide harm to riders, drivers or access-limited neighborhoods.
 
 import numpy as np
-
 from .simulation import MarketplacePanel
-
 
 def assignment_checks(panel: MarketplacePanel) -> dict:
     share = float(np.mean(panel.treatment))
@@ -24,4 +22,3 @@ def access_gap(effect_by_group: dict[str, float]) -> dict:
     standard = effect_by_group["standard"]
     gap = limited - standard
     return {"limited_effect": limited, "standard_effect": standard, "gap": gap, "passed": gap > -0.025}
-
