@@ -1,5 +1,4 @@
-# Checks before making a recommendation. They catch broken assignment, compare period trends and make sure aggregate gains do not
-# hide harm to riders, drivers or access-limited neighborhoods.
+# Checks before making a recommendation.
 
 import numpy as np
 from .simulation import MarketplacePanel
