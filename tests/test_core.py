@@ -1,7 +1,8 @@
+# These tests make sure the dashboard gets the results it expects and that
+# invalid experiment sizes are caught before the analysis runs.
 
 import numpy as np
 import pytest
-
 from equilibrium_lab.analysis import analyze
 from equilibrium_lab.diagnostics import assignment_checks
 from equilibrium_lab.experiment import estimate_effect
