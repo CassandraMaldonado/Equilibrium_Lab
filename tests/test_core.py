@@ -1,5 +1,3 @@
-# These tests check the most important statistical and product behavior. 
-# It verifies reproducibility, switchback balance, known-effect recovery, rollout constraints and the structure of the brief.
 
 import numpy as np
 import pytest
