@@ -1,4 +1,4 @@
-# I use these tests to make sure the dashboard receives a reliable response and that invalid experiment sizes are rejected before the analysis.
+# These tests make sure the dashboard gets the results it expects and that invalid experiment sizes are caught before the analysis runs.
 
 from fastapi.testclient import TestClient
 from equilibrium_lab.api import app
