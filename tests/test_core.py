@@ -1,5 +1,4 @@
-# These tests make sure the dashboard gets the results it expects and that
-# invalid experiment sizes are caught before the analysis runs.
+# These tests make sure the dashboard gets the results it expects and that invalid experiment sizes are caught before the analysis runs.
 
 import numpy as np
 import pytest
