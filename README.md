@@ -27,13 +27,6 @@ The goal is to understand whether the policy creates value across the marketplac
 
 ## What makes this project different
 
-- Uses a **zone bytime switchback design** to reduce interference between treatment and control.
-- Estimates effects with **cluster uncertainty** instead of treating every event as independent.
-- Runs **sample-ratio and pre-trend checks** before interpreting results.
-- Measures both sides of the marketplace through rider, driver and system guardrails.
-- Reports **heterogeneous effects** by demand pressure and neighborhood access level.
-
-
 
 ## Run the project
 
