@@ -1,5 +1,4 @@
-# Before I make a recommendation, I use these checks to make sure the experiment was assigned correctly, the trends look reasonable and the overall results
-# are not hiding a worse outcome for riders, drivers or access-limited areas.
+# Before I make a recommendation.
 
 import numpy as np
 from .simulation import MarketplacePanel
