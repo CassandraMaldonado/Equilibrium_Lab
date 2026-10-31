@@ -14,7 +14,7 @@ The project simulates a new matching policy across multiple geographic zones usi
 - Marketplace efficiency
 - Differences across demand levels and neighborhood access groups
 
-The goal is to understand whether the policy creates value across the marketplace and then make a clear recommendation to scale it gradually, improve it, or stop the rollout.
+The goal is to understand whether the policy creates value across the marketplace and then make a clear recommendation to scale it gradually, improve it or stop the rollout.
 
 
 ## The questions
@@ -32,8 +32,7 @@ The goal is to understand whether the policy creates value across the marketplac
 - Runs **sample-ratio and pre-trend checks** before interpreting results.
 - Measures both sides of the marketplace through rider, driver and system guardrails.
 - Reports **heterogeneous effects** by demand pressure and neighborhood access level.
-- Uses a constrained optimizer to recommend rollout while protecting minimum service coverage.
-- Keeps the statistical evidence separate from the final product decision.
+
 
 
 ## Run the project
