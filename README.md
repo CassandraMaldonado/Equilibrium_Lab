@@ -2,9 +2,6 @@
 
 **A practical way to evaluate product changes in a two-sided marketplace.**
 
-I built Equilibrium Lab to answer a harder question than “did the metric go up?”: when a product change affects both sides of a marketplace, did it create real value or simply move wait time, earnings and availability from one group to another?
-
-__
 I built Equilibrium Lab to go beyond the question, “Did the main metric improve?”
 
 In a marketplace, a product change can affect riders and drivers differently. An increase in completed trips may look positive, but it could also lead to longer pickup times, lower driver earnings, or worse availability in certain areas.
