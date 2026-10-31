@@ -1,4 +1,7 @@
-# These tests make sure the dashboard gets the results it expects and that invalid experiment sizes are caught before the analysis runs.
+# These tests cover the main parts of the project. I check that the simulation
+# is reproducible, the switchback assignment is balanced, the analysis recovers
+# the expected effect, the rollout follows its constraints, and the final brief
+# has everything it needs.
 
 import numpy as np
 import pytest
