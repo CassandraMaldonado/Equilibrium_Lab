@@ -27,6 +27,13 @@ The goal is to understand whether the policy creates value across the marketplac
 
 ## What makes this project different
 
+- Uses a **zone-by-time switchback experiment** to reduce overlap between the treatment and control groups.
+- Groups related observations when calculating uncertainty instead of assuming every marketplace event is independent.
+- Checks assignment balance and early trends before interpreting the experiment results.
+- Measures the impact on riders, drivers, and the overall marketplace rather than focusing on one metric.
+- Compares results across different demand levels and neighborhood access groups.
+- Recommends a phased rollout while maintaining minimum service coverage across the marketplace.
+- Uses statistical evidence to inform the final recommendation without treating the model as the only input to the decision.
 
 ## Run the project
 
