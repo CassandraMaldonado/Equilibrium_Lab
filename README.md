@@ -2,9 +2,9 @@
 
 **A practical way to evaluate product changes in a two-sided marketplace.**
 
-I built Equilibrium Lab to go beyond the question, “Did the main metric improve?”
+I built Equilibrium Lab to go beyond the question: “Did the main metric improve?”
 
-In a marketplace, a product change can affect riders and drivers differently. An increase in completed trips may look positive, but it could also lead to longer pickup times, lower driver earnings, or worse availability in certain areas.
+In a marketplace, a product change can affect riders and drivers differently. An increase in completed trips may look positive, but it could also lead to longer pickup times, lower driver earnings or worse availability in certain areas.
 
 The project simulates a new matching policy across multiple geographic zones using a switchback experiment. It measures:
 
