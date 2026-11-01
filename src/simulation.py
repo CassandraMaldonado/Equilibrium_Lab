@@ -2,9 +2,6 @@
 # customer or driver information. The simulation includes differences between
 # zones, demand cycles, supply constraints, and possible treatment spillover.
 
-
-# I use synthetic data so the marketplace experiment can be reproduced without exposing customer info. 
-
 from dataclasses import dataclass
 import numpy as np
 
