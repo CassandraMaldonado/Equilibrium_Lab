@@ -1,5 +1,4 @@
 # I use a rollout score instead of automatically scaling everywhere.
-# The optimizer rewards expected trip lift but penalizes uncertainty, access gaps and operational pressure while preserving minimum geographic coverage.
 
 from dataclasses import dataclass
 import numpy as np
