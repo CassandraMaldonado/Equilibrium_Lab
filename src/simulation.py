@@ -1,5 +1,5 @@
-# I use synthetic data so the experiment can be reproduced without exposing
-# customer or driver information. The simulation includes differences between
+# I use synthetic data so the experiment can be reproduced without exposing customer or driver information. 
+# The simulation includes differences between
 # zones, demand cycles, supply constraints, and possible treatment spillover.
 
 from dataclasses import dataclass
