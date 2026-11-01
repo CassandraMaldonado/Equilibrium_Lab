@@ -1,4 +1,7 @@
 # I use a rollout score instead of automatically scaling everywhere.
+# Instead of rolling out the policy everywhere, I score each zone based on its
+# expected trip lift, uncertainty, access gaps, and current marketplace pressure.
+# This helps me recommend a gradual rollout while maintaining geographic coverage.
 
 from dataclasses import dataclass
 import numpy as np
