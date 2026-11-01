@@ -4,15 +4,6 @@
 from dataclasses import dataclass
 import numpy as np
 
-@dataclass(frozen=True)
-class RolloutZone:
-    zone: int
-    score: float
-    expected_trip_lift: float
-    demand_pressure: float
-    access_group: str
-    rollout_share: float
-
 
 def recommend_rollout(
     zone: np.ndarray,
