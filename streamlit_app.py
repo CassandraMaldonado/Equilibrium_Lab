@@ -1,11 +1,9 @@
 """Interactive Streamlit decision brief for Equilibrium Lab."""
 
 from __future__ import annotations
-
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-
 from equilibrium_lab.analysis import analyze
 
 st.set_page_config(
