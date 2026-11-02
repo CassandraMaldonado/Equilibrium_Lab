@@ -1,9 +1,5 @@
 """Interactive Streamlit decision brief for Equilibrium Lab."""
 
-# I use Streamlit here to turn the experiment results into an interactive
-# product decision brief. The calculations stay in the package, while this file
-# focuses on helping someone explore the evidence and understand the tradeoffs.
-
 from __future__ import annotations
 
 import pandas as pd
