@@ -1,5 +1,8 @@
 """Interactive Streamlit decision brief for Equilibrium Lab."""
 
+# The actual  analysis stays in the main package and this file focuses on presenting the
+# results clearly so someone can understand the tradeoffs behind the decision.
+
 from __future__ import annotations
 import pandas as pd
 import plotly.graph_objects as go
